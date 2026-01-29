@@ -5,8 +5,8 @@ import MiniProject_Backend
 # Initialize database and trigger
 MiniProject_Backend.MovieData()
 MiniProject_Backend.create_trigger()
+#.================= FRONTEND CLASS =================
 #
-
 class Movie:
     def __init__(self, root):
         self.root = root
